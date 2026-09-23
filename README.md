@@ -63,11 +63,14 @@ archivo. Las rojas son lo que falta.
 Busca `TU CÓDIGO AQUÍ` en el proyecto. Hay tres archivos, y cada uno es un **worker**: una
 clase que hace **una sola cosa** y **no importa a ninguna otra**.
 
-| # | Archivo | Qué tiene que hacer | Issue |
-|---|---|---|---|
-| 1 | `neurona/cargador.py` | Leer el CSV: metadatos y tiempos de espiga | #1 |
-| 2 | `neurona/tasas.py` | Convertir tiempos en hercios | #2 |
-| 3 | `neurona/graficos.py` | Dibujar el ráster y las curvas | #3 |
+| # | Archivo | Qué tiene que hacer |
+|---|---|---|
+| 1 | `neurona/cargador.py` | Leer el CSV: metadatos y tiempos de espiga |
+| 2 | `neurona/tasas.py` | Convertir tiempos en hercios |
+| 3 | `neurona/graficos.py` | Dibujar el ráster y las curvas |
+
+Antes de escribir código, **abre un issue por cada uno**: `docs/issues-por-abrir.md` te
+dice qué poner. (GitHub no copia los issues de la plantilla — los tuyos los abres tú.)
 
 **Casi todo lo que necesitas ya lo escribiste** en los cuadernos de las clases de ficheros
 y de tasa de disparo. No lo inventes de nuevo: búscalo y tráelo.
