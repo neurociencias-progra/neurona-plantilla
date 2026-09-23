@@ -17,6 +17,38 @@ n.tasa_por_clase()   # una curva de tasa por clase
 
 ---
 
+## 0 · Antes de la clase — lo que tienes que traer instalado
+
+Cuatro cosas. Ninguna tarda más de diez minutos, y **si llegas sin ellas te vas a perder
+la primera media hora**.
+
+| Qué | Dónde | Cómo sabes que quedó |
+|---|---|---|
+| **VSCode** | [code.visualstudio.com](https://code.visualstudio.com) | Se abre |
+| **La extensión de Python** | Dentro de VSCode: `Ctrl+Shift+X`, busca «Python» de **Microsoft**, *Install* | Dice *Installed* |
+| **Git** | [git-scm.com/downloads](https://git-scm.com/downloads) | El comando de abajo responde |
+| **Una cuenta de GitHub** | [github.com/signup](https://github.com/signup) | Puedes entrar |
+
+**La comprobación.** Abre VSCode → menú `Terminal` → `Nueva terminal`, y pega estas dos
+líneas, **una por una**:
+
+```
+python --version
+git --version
+```
+
+Las dos tienen que responder con un número de versión. Si alguna dice *«command not
+found»* o *«no se reconoce»*, esa pieza no quedó instalada.
+
+<details>
+<summary>⚠ Windows: si <code>python</code> no responde pero tienes Python instalado</summary>
+
+Prueba con `py --version`. Si esa sí funciona, tu Python está bien pero no está en el
+PATH; dilo en el grupo y lo resolvemos antes de la clase.
+</details>
+
+---
+
 ## 1 · Prepara el entorno (tres clics, sin terminal)
 
 En VSCode, con esta carpeta abierta:
