@@ -24,6 +24,7 @@ la primera media hora**.
 
 | Qué | Dónde | Cómo sabes que quedó |
 |---|---|---|
+| **Python** | Seguramente **ya lo tienes** (es con lo que has corrido los cuadernos). Si la comprobación de abajo dice que no: [python.org/downloads](https://www.python.org/downloads/) — y en Windows, **marca la casilla «Add Python to PATH»** en la primera pantalla del instalador | El comando de abajo responde |
 | **VSCode** | [code.visualstudio.com](https://code.visualstudio.com) | Se abre |
 | **La extensión de Python** | Dentro de VSCode: `Ctrl+Shift+X`, busca «Python» de **Microsoft**, *Install* | Dice *Installed* |
 | **Git** | [git-scm.com/downloads](https://git-scm.com/downloads) | El comando de abajo responde |
@@ -41,10 +42,20 @@ Las dos tienen que responder con un número de versión. Si alguna dice *«comma
 found»* o *«no se reconoce»*, esa pieza no quedó instalada.
 
 <details>
-<summary>⚠ Windows: si <code>python</code> no responde pero tienes Python instalado</summary>
+<summary>⚠ Windows: si <code>python</code> no responde</summary>
 
-Prueba con `py --version`. Si esa sí funciona, tu Python está bien pero no está en el
-PATH; dilo en el grupo y lo resolvemos antes de la clase.
+Prueba con `py --version`. Si **esa sí** funciona, tu Python está bien pero no está en el
+PATH: dilo en el grupo y lo resolvemos antes de la clase. Si **tampoco**, instala Python
+desde [python.org](https://www.python.org/downloads/) y **marca «Add Python to PATH»** en
+la primera pantalla.
+</details>
+
+<details>
+<summary>⚠ Mac o Linux: si <code>python</code> no responde</summary>
+
+Prueba con **`python3 --version`**. En Mac y en muchos Linux el comando se llama así, y es
+perfectamente normal: **no te falta nada**. Cuando en clase veas `python`, tú escribe
+`python3`.
 </details>
 
 ---
