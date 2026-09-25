@@ -19,8 +19,8 @@ n.tasa_por_clase()   # una curva de tasa por clase
 
 ## 0 · Antes de la clase — lo que tienes que traer instalado
 
-Cuatro cosas. Ninguna tarda más de diez minutos, y **si llegas sin ellas te vas a perder
-la primera media hora**.
+Cuatro cosas, más Python —que seguramente ya tienes—. Ninguna tarda más de diez minutos,
+y **si llegas sin ellas te vas a perder la primera media hora**.
 
 | Qué | Dónde | Cómo sabes que quedó |
 |---|---|---|
