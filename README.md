@@ -112,6 +112,11 @@ clase que hace **una sola cosa** y **no importa a ninguna otra**.
 | 2 | `neurona/tasas.py` | Convertir tiempos en hercios |
 | 3 | `neurona/graficos.py` | Dibujar el ráster y las curvas |
 
+En cada hueco hay un `raise NotImplementedError("…")`. **Lee su mensaje antes que nada: es
+una pista.** Luego borra el comentario `TU CÓDIGO AQUÍ` y el `raise` completo, y escribe tu
+código en su lugar. Ese `raise` es justo lo que pone la prueba en rojo: si lo dejas y
+escribes debajo, Python nunca llega a tu código.
+
 Antes de escribir código, **abre un issue por cada uno**: `docs/issues-por-abrir.md` te
 dice qué poner. (GitHub no copia los issues de la plantilla — los tuyos los abres tú.)
 
