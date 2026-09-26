@@ -121,3 +121,14 @@ Y en la Clase 4 se le suma: `git switch -c feature/modelo → ... → push → P
 **¿Un error de git que no entiendes?** Copia el mensaje COMPLETO al grupo o pídele a la IA
 que te lo explique (no que lo resuelva) — y anótalo: los errores de git también se
 coleccionan. 🗂️
+
+
+---
+
+## Para profundizar (cuando el curso te sepa a poco)
+
+| recurso | qué es |
+|---|---|
+| [Pro Git](https://git-scm.com/book/es) — libro gratuito | LA referencia, y está en español |
+| [learngitbranching.js.org](https://learngitbranching.js.org/?locale=es_MX) | Practicar ramas y merges como videojuego |
+| [GitHub Skills](https://skills.github.com) | Cursos prácticos dentro de repos reales |
