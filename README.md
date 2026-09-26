@@ -19,27 +19,57 @@ n.tasa_por_clase()   # una curva de tasa por clase
 
 ## 0 · Antes de la clase — lo que tienes que traer instalado
 
-Cuatro cosas, más Python —que seguramente ya tienes—. Ninguna tarda más de diez minutos,
-y **si llegas sin ellas te vas a perder la primera media hora**.
+Cinco pasos, en este orden. Ninguno tarda más de diez minutos, y **si llegas sin ellos te
+vas a perder la primera media hora de la clase**.
 
-| Qué | Dónde | Cómo sabes que quedó |
-|---|---|---|
-| **Python** | Seguramente **ya lo tienes** (es con lo que has corrido los cuadernos). Si la comprobación de abajo dice que no: [python.org/downloads](https://www.python.org/downloads/) — y en Windows, **marca la casilla «Add Python to PATH»** en la primera pantalla del instalador | El comando de abajo responde |
-| **VSCode** | [code.visualstudio.com](https://code.visualstudio.com) | Se abre |
-| **La extensión de Python** | Dentro de VSCode: `Ctrl+Shift+X`, busca «Python» de **Microsoft**, *Install* | Dice *Installed* |
-| **Git** | [git-scm.com/downloads](https://git-scm.com/downloads) | El comando de abajo responde |
-| **Una cuenta de GitHub** | [github.com/signup](https://github.com/signup) | Puedes entrar |
+### 1 · Instala VSCode
 
-**La comprobación.** Abre VSCode → menú `Terminal` → `Nueva terminal`, y pega estas dos
-líneas, **una por una**:
+Descárgalo de [code.visualstudio.com](https://code.visualstudio.com) e instálalo.
+
+**Quedó si:** se abre.
+
+### 2 · Instala la extensión de Python
+
+Dentro de VSCode: `Ctrl+Shift+X` (Mac: `Cmd+Shift+X`), busca «Python» e instala la de
+**Microsoft** — la primera de la lista, con decenas de millones de descargas.
+
+**Quedó si:** el botón ahora dice *Installed*.
+
+### 3 · Instala Git
+
+* **Windows:** descarga el instalador de [git-scm.com/downloads](https://git-scm.com/downloads)
+  y dale *Siguiente* a todo: las opciones por defecto están bien.
+* **Mac:** abre la app *Terminal* y escribe `git --version`. Si no lo tienes, macOS te
+  ofrece instalarlo ahí mismo: acepta y espera a que termine.
+* **Linux:** `sudo apt install git` (o el gestor de tu distribución).
+
+**Quedó si:** la comprobación del paso 5 responde.
+
+### 4 · Crea tu cuenta de GitHub
+
+Regístrate gratis en [github.com/signup](https://github.com/signup), con un correo que sí
+revises. Elige un nombre de usuario presentable: **es público** y lo vamos a usar en clase.
+
+**Quedó si:** entras a github.com y ves tu perfil.
+
+### 5 · La comprobación final
+
+> ¿Y Python? No está en la lista porque **seguramente ya lo tienes**: es con lo que has
+> corrido los cuadernos del curso. Este paso lo confirma.
+
+Abre VSCode → menú `Terminal` → `Nueva terminal`, y pega estas dos líneas, **una por una**:
 
 ```
 python --version
 git --version
 ```
 
-Las dos tienen que responder con un número de versión. Si alguna dice *«command not
-found»* o *«no se reconoce»*, esa pieza no quedó instalada.
+**Quedó si: las dos responden con un número de versión.** Ese es el momento de mandar tu
+✅ al grupo 🎉
+
+Si alguna dice *«command not found»* o *«no se reconoce»*, abre el aviso que te toque; y si
+ni así sale, **manda captura al grupo** y lo resolvemos antes de la clase — para eso es
+esta semana.
 
 <details>
 <summary>⚠ Windows: si <code>python</code> no responde</summary>
@@ -66,7 +96,7 @@ En VSCode, con esta carpeta abierta:
 
 1. `Ctrl+Shift+P` (en Mac, `Cmd+Shift+P`)
 2. Escribe **`Python: Create Environment`**
-3. Elige **Venv** o **Conda** —te ofrecerá lo que tengas— y marca **`requirements.txt`**
+3. Elige **Venv** y marca **`requirements.txt`**
 
 VSCode crea el entorno, lo selecciona e instala todo.
 
@@ -157,7 +187,7 @@ Cada vez que pases una prueba a verde:
 
 ```bash
 git add .
-git commit -m "Closes #1 — el Cargador lee el CSV"
+git commit -m "Closes #1: el Cargador lee el CSV"
 git push
 ```
 
