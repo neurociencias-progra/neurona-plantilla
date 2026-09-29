@@ -11,9 +11,12 @@ curso**: hoy solo se admira — su día llegará.
    nombre **`neurona`** → **Public** → Create.
 2. **Tu clon**: en VSCode, `Ctrl+Shift+P` → **`Git: Clone`** → pega la URL de TU repo →
    elige una carpeta de tu home **sin acentos ni espacios** → **Open**.
-3. **La tarea antes que el código**: en la web, pestaña **Issues** → **New issue** →
-   título `Inaugurar la bitácora` → Submit. *(Será el **#4** — los #1–#3 son del proyecto,
-   no los toques todavía.)*
+3. **Las tareas antes que el código**: en la web, pestaña **Issues** → **New issue**.
+   Abre **cuatro**, en este orden:
+   * los **tres del proyecto** — títulos y cuerpos listos para copiar en
+     `docs/issues-por-abrir.md` (ábrelo en VSCode). Hoy **no se resuelven**: solo quedan
+     registrados, esperando su clase. Serán los #1–#3.
+   * un cuarto, tuyo: título `Inaugurar la bitácora`. Será el **#4** — el de hoy.
 4. **El cambio**: abre `README.md` en VSCode y agrega al final una línea:
    `Bitácora: [tu nombre] tomó el control — 30-sep-2026`. Guarda.
 5. **El ciclo**, en la terminal (`Terminal → New Terminal`):
