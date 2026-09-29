@@ -19,6 +19,10 @@ n.tasa_por_clase()   # una curva de tasa por clase
 
 ## 0 · Antes de la clase — lo que tienes que traer instalado
 
+> 🏋️ **La práctica de git** (clase del 30-sep) vive en su propio repositorio:
+> [`taller-git`](https://github.com/neurociencias-progra/taller-git). **Este** repositorio
+> es el proyecto final del módulo — su día llega en la última clase.
+
 Cinco pasos, en este orden. Ninguno tarda más de diez minutos, y **si llegas sin ellos te
 vas a perder la primera media hora de la clase**.
 
