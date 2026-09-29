@@ -49,7 +49,7 @@ Escribe el cuerpo tú. Para que no arranques en blanco, esto es lo que hay que c
 ## Y después, al hacer commit
 
 ```bash
-git commit -m "Closes #1 — el Cargador lee el CSV"
+git commit -m "Closes #1: el Cargador lee el CSV"
 ```
 
 Escribir `Closes #1` en el mensaje **cierra el issue solo** cuando subes el commit. Esa es
